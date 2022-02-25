@@ -4,7 +4,7 @@
 
 Future developments are planned to include multiple filament sensors and pop-ups.
 
-Initial work based on the [Octoprint-Filament](https://github.com/MoonshineSG/Octoprint-Filament) plugin by MoonshineSG and [Octoprint-Reloaded] (https://github.com/kontakt/Octoprint-Filament-Reloaded/archive/master.zip) plugin by kontakt.
+Initial work based on the [Octoprint-Filament](https://github.com/MoonshineSG/Octoprint-Filament) plugin by MoonshineSG and Octoprint-Reloaded plugin by [kontakt](https://github.com/kontakt/Octoprint-Filament-Reloaded/archive/master.zip) and [ssorgatem](https://github.com/ssorgatem/Octoprint-Filament-Reloaded/archive/master.zip)
 
 ## Required sensor
 
@@ -29,9 +29,17 @@ An API is available to check the filament sensor status via a GET method to `/pl
 
 ## Installation
 
-* Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager).
-* Manually using this URL: https://github.com/ssorgatem/Octoprint-Filament-Reloaded/archive/master.zip
+* Install via the bundled [Plugin Manager](https://plugins.octoprint.org/plugins/filament_sensor_reloaded/). _Installs [ssorgatem](https://github.com/ssorgatem/Octoprint-Filament-Reloaded/archive/master.zip) version._
+* Manually using this URL: https://github.com/nickmitchko/Octoprint-Filament-Reloaded
 
 ## Configuration
 
 After installation, configure the plugin via OctoPrint Settings interface.
+
+* Wire the sensor pin to Pin 24
+
+  ![pi pins](https://user-images.githubusercontent.com/7769991/151637147-26865806-1e60-4114-a93e-4e437530c197.png)
+* Ensure the "Board Pin Mode" Setting to "Board Mode"
+
+
+
