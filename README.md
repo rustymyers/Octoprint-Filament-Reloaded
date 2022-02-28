@@ -41,5 +41,5 @@ After installation, configure the plugin via OctoPrint Settings interface.
   ![pi pins](https://user-images.githubusercontent.com/7769991/151637147-26865806-1e60-4114-a93e-4e437530c197.png)
 * Ensure the "Board Pin Mode" Setting to "Board Mode"
 
-
+* Connect filament sensor ground to pin 4 and voltage to pin 1. Use only 3.3v, not 5v for sensor! 
 
