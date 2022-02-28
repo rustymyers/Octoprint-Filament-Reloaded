@@ -8,7 +8,7 @@ Initial work based on the [Octoprint-Filament](https://github.com/MoonshineSG/Oc
 
 ## Required sensor
 
-Using this plugin requires a filament sensor. The code is set to use the Raspberry Pi's internal Pull-Up resistors, so the switch should be between your detection pin and a ground pin.
+Using this plugin requires a filament sensor. The code is set to use the Raspberry Pi's internal Pull-Up resistors, so the switch should be between your detection pin and a ground pin. An inexpensive switch can be purchased for many printers, such as this one for the Ender 3: [BIQU Filament Break Detection Sensor](https://www.amazon.com/BIQU-Filament-Detection-Accessories-Transparent/dp/B08QJDP36R).
 
 This plugin is using the GPIO.BOARD numbering scheme, the pin being used needs to be selected by the physical pin number.
 
