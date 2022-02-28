@@ -36,7 +36,7 @@ An API is available to check the filament sensor status via a GET method to `/pl
 
 After installation, configure the plugin via OctoPrint Settings interface.
 
-* Wire the sensor pin to Pin 24
+* Wire the sensor pin to Pin 18
 
   ![pi pins](https://user-images.githubusercontent.com/7769991/151637147-26865806-1e60-4114-a93e-4e437530c197.png)
 * Ensure the "Board Pin Mode" Setting to "Board Mode"
